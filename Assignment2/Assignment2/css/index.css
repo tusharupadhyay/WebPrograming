@@ -1,0 +1,128 @@
+#container{
+	
+	
+	width:100%;
+	height:100%;
+	
+}
+
+.text-muted{
+	text-align:center;
+}
+
+
+#photos {
+	margin-left:auto;
+	margin-right:auto;
+    width: 1500px;
+    height: 600px;
+    overflow: hidden;
+		
+	
+}
+#slideContainer{
+	display:block;
+	width:6000px;
+	height:600px;
+	list-style:none;
+}
+
+
+#photos img{
+	float:left;
+	width:1500px;
+	height:600px;
+	
+}
+
+#next{
+	position:absolute;
+	height:100px;
+	width: 100px;
+	text-align:center;
+	
+	top:350px;
+	right:100px;
+	cursor:pointer;
+	background-color: red;
+	opacity:0;
+	
+}
+#next img{
+	height:100px;
+	width: 100px;
+}
+
+#prev img{
+	height:100px;
+	width: 100px;
+	
+}
+
+#prev{
+	position:absolute;
+	height:100px;
+	width: 100px;
+	text-align:center;
+	
+	top:350px;
+	left:100px;
+	cursor:pointer;
+	background-color: red;
+	opacity:0;
+}
+
+#container:hover .direction{
+	
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#container:hover #content{
+	
+	opacity: 1.0;
+    filter: alpha(opacity=40);
+	
+	
+}
+
+#navigator{
+	
+	list-style:none;
+}
+
+#numberButtons{
+	position:absolute;
+	top:600px;
+	left:700px;
+	right:650px;
+	
+}
+.df{
+	display:inline-block;
+}
+
+.changeColor{
+	color:blue;
+}
+
+
+#content{
+	
+	position:absolute;
+	top:500px;
+	left: 110px;
+	height: 100px;
+	width: 200px;
+	opacity:0;
+	overflow:hidden;
+	background-color:white;
+	text-align: left;
+	padding:10px;
+	border: 5px solid navy;
+}
+
+
+
+
+

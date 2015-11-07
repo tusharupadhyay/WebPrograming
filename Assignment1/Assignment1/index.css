@@ -1,0 +1,117 @@
+html{
+	height:100%;
+	background-color:White;
+	}
+	
+	#leftbar{
+	background-color:#F5F5DC;
+		width:68%;
+		float:left;
+		padding:5px;
+		height:100%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:16px;
+		
+		
+	}
+	
+	
+	#upperbar ul{
+		background-color:#6495ED;
+		float: left;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	
+	
+	#rightbar {
+		line-height:30px;
+		background-color:#483D8B;
+		height:100%;
+		width:30%;
+		float:right;
+		padding:5px;	 
+		font-size:15px;	
+		font-family: Arial, Helvetica, sans-serif;		
+	}
+	
+	#upperbar li {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+	display: inline;
+	}
+
+	a:hover {
+		background-color: fuchsia;
+	}
+	
+	
+	
+	#searchbar{
+		float:left;
+		padding:10px;
+		margin-bottom:10px;
+		
+	}
+	
+	#searchbar input[type="text"]{
+		height:30px;
+		background-color:grey;
+				
+	}
+
+	#searchbar input[type="submit"]{
+		height:30px;
+		width: 60px;
+		background-color:red;
+				
+	}
+	
+	#home img{
+		
+	width:200px;
+	height:200px;
+	border: 5px solid navy;
+    margin-right: 25px;
+	margin-bottom: 25px;
+	float:left;
+	
+	}
+	#home h1{
+		margin-top: 100px;
+	}
+	
+	
+	
+	ul.no_bullet{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	li.pic{
+		background: url("check.png") no-repeat left top;
+		height: 55px;
+		padding-left: 80px;
+		padding-top: 15px;
+		font-size:15px;
+	}
+	
+	.UTD{
+		font-weight:BOLD;
+		color:orange;
+		
+	}
+	
+	.UTD:hover:after{
+		
+		content: " The University of Texas at Dallas";
+		
+	}
